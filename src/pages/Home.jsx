@@ -104,7 +104,7 @@ const Home = () => {
     // "http://localhost:8000/api/v1/post"
     setSharing(true);
     try {
-      const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/api/v1/post`, {
+      const response = await axios.post('https://imagify-backend.onrender.com/api/v1/post', {
         name,
         model: selectedModel,
         prompt,
