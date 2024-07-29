@@ -4,7 +4,7 @@ import axios from 'axios';
 async function playground(data) {
   try {
     const response = await axios.post(
-      `${import.meta.env.VITE_PLAYGROUND_URL}`,
+      "https://api-inference.huggingface.co/models/playgroundai/playground-v2-1024px-aesthetic",
       data,
       {
         headers: {
