@@ -56,7 +56,6 @@ export const surpriseMePrompts = [
     "Why did the coffee file a police report? It got mugged.",
     "What do you call an alligator in a vest? An investigator.",
     "Why was the math book unhappy? It had too many problems.",
-    "Why did the golfer bring an extra pair of pants? In case he got a hole in one.",
     "Why did the computer go to the beach? To surf the web.",
     "Why did the computer go to the party alone? It couldn’t find its byte!",
     "Why did the programmer get kicked out of the restaurant? Because he kept using his Java!",
